@@ -14,9 +14,9 @@ def particion(array, left, right):
         if array[j] <= pivot:
             i += 1
             
-            array[j], array[i] = array[i] , array[j]
+            array[j], array[i] = array[i] , array[j] #se for menor ou igual ao pivot, inverte as posições de j e i, anda i pra frente
             
-    array[i+1], array[right] = array[right], array[i+1] 
+    array[i+1], array[right] = array[right], array[i+1] #coloca o pivo no devido local no array
     
     return i + 1
 
