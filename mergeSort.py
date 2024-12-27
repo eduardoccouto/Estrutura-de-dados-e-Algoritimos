@@ -46,10 +46,20 @@ def mergeSort(head):
     return sortedList
     
     
+# class Node:
+#     def __init__(self, value = 0 , next = None):
+#         self.value = value
+#         self.next = next
 
+# node1 = Node(5)        
+# node2 = Node(10, node1)        
+# node3 = Node(2, node2)        
+# node4 = Node(25, node3)        
 
+# my_list = mergeSort(node4)
+# print(my_list)
+# list = Node()
 list = Node()
-
 
 list.append(25)
 list.append(2)
@@ -58,9 +68,10 @@ list.append(8)
 list.append(4)
 
 
-#mergeSort(list.head)
-list.mostrarLista()
-pointer = list.head
+my_list = mergeSort(list.head)
+print(my_list.next)
+
+pointer = my_list.next
         
 while pointer:
     print(pointer.value)
