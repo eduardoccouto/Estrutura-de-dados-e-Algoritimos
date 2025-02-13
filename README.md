@@ -18,7 +18,7 @@ Os códigos serão escritos nessa linguagem:
 1. Faça um fork do repositório
 2. Clone o repositório para sua máquina
    ```bash
-   git clone https://github.com/seu-usuario/nome-do-repositorio.git
+   git clone https://github.com/eduardoccouto/Estrutura-de-dados-e-Algoritimos.git
    ```
 3. Crie uma branch para sua contribuição
    ```bash
